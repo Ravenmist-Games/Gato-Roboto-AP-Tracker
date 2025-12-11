@@ -52,6 +52,8 @@ ITEM_MAPPING = {
 	-- Progressive Ventilation
 	[BASE_ITEM_ID + 00262] = { { "ventilation_1" } },
 	[BASE_ITEM_ID + 00263] = { { "ventilation_2" } },
-	[BASE_ITEM_ID + 00264] = { { "ventilation_3" } }
+	[BASE_ITEM_ID + 00264] = { { "ventilation_3" } },
 
+	-- Victory
+	[BASE_ITEM_ID + 00999] = { { "victory" } }
 }
