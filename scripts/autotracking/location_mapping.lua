@@ -43,7 +43,7 @@ LOCATION_MAPPING = {
 
 	-- Ventilation
 	[BASE_LOCATION_ID + 00815] = { { "@Ventilation/Healthkit/" } },
-	[BASE_LOCATION_ID + 01614] = { { "@Ventilation/Gris Cartridge/" } },
+	[BASE_LOCATION_ID + 01613] = { { "@Ventilation/Gris Cartridge/" } },
 	[BASE_LOCATION_ID + 00517] = { { "@Ventilation/Grape Cartridge/" } },
 	[BASE_LOCATION_ID + 01718] = { { "@Ventilation/Bigshot/" } },
 	[BASE_LOCATION_ID + 01113] = { { "@Ventilation/Progressive Ventilation 1/" } },
@@ -52,7 +52,7 @@ LOCATION_MAPPING = {
 
 	-- Incubator
 	[BASE_LOCATION_ID + 02413] = { { "@Incubator/Healthkit/" } },
-	[BASE_LOCATION_ID + 01514] = { { "@Incubator/Tamagato Cartridge/" } },
+	[BASE_LOCATION_ID + 01513] = { { "@Incubator/Tamagato Cartridge/" } },
 
 	-- Laboratory
 	[BASE_LOCATION_ID + 01319] = { { "@Laboratory/Victory/" } },
