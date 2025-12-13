@@ -133,7 +133,7 @@
         "name": "West Healthkit",
         "access_rules": [
           "spin_jump",
-          "$rocket_jumps"
+          "$rocket_jumps,$precise_tricks"
         ],
         "sections": [
           {
@@ -299,7 +299,8 @@
       {
         "name": "East Healthkit",
         "access_rules": [
-          "$has_aqueducts_event|3,spin_jump"
+          "$has_aqueducts_event|3,spin_jump",
+          "$has_aqueducts_event|2,$rocket_jumps"
         ],
         "sections": [
           {
@@ -359,7 +360,8 @@
       {
         "name": "Starboard Cartridge",
         "access_rules": [
-          "$has_aqueducts_event|2,spin_jump"
+          "$has_aqueducts_event|2,spin_jump",
+          "$has_aqueducts_event|2,$rocket_jumps"
         ],
         "sections": [
           {
@@ -567,7 +569,8 @@
       {
         "name": "Coolant",
         "access_rules": [
-          "$has_heater_core_event|3"
+          "$has_heater_core_event|3",
+          "$small_mech"
         ],
         "sections": [
           {
@@ -667,8 +670,8 @@
   {
     "name": "Ventilation",
     "access_rules": [
-      "$has_aqueducts_event|3,$has_heater_core_event|3",
-      "$has_aqueducts_event|3,$small_mech"
+      "$has_heater_core_event|2,spin_jump",
+      "$has_heater_core_event|2,$rocket_jumps"
     ],
     "children": [
       {
