@@ -1,0 +1,33 @@
+[  
+  {
+    "name": "Laboratory",
+    "access_rules": [
+      "$has_aqueducts_event|3,$has_heater_core_event|3,$has_ventilation_event|3,decoder"
+    ],
+    "children": [
+      {
+        "name": "Victory",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/completion_0.png",
+            "chest_opened_img": "images/items/completion.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1711,
+            "y": 1943
+          },
+          {
+            "map": "laboratory",
+            "x": 136,
+            "y": 214
+          }
+        ]
+      }
+    ]
+  }
+]

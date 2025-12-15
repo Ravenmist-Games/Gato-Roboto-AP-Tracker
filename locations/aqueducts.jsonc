@@ -1,0 +1,237 @@
+[  
+  {
+    "name": "Aqueducts",
+    "access_rules": [
+      "missile"
+    ],
+    "children": [
+      {
+        "name": "West Healthkit",
+        "access_rules": [
+          "$has_aqueducts_event|1",
+          "[$water_mech]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 272,
+            "y": 1368
+          },
+          {
+            "map": "aqueducts",
+            "x": 205,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "East Healthkit",
+        "access_rules": [
+          "$has_aqueducts_event|3,spin_jump",
+          "$has_aqueducts_event|2,$rocket_jumps",
+          "[$water_mech],[$rocket_jumps],[$precise_tricks]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 788,
+            "y": 1368
+          },
+          {
+            "map": "aqueducts",
+            "x": 644,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Port Cartridge",
+        "access_rules": [
+          "$has_aqueducts_event|3,spin_jump"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 572,
+            "y": 1368
+          },
+          {
+            "map": "aqueducts",
+            "x": 460,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Goop Cartridge",
+        "access_rules": [
+          "$has_aqueducts_event|3,spin_jump"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 402,
+            "y": 1412
+          },
+          {
+            "map": "aqueducts",
+            "x": 314,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Starboard Cartridge",
+        "access_rules": [
+          "$has_aqueducts_event|2,spin_jump",
+          "$has_aqueducts_event|2,[$rocket_jumps]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1002,
+            "y": 1368
+          },
+          {
+            "map": "aqueducts",
+            "x": 826,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Spin Jump",
+        "access_rules": [
+          "$has_aqueducts_event|3"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/spin_jump_0.png",
+            "chest_opened_img": "images/items/spin_jump.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1132,
+            "y": 1540
+          },
+          {
+            "map": "aqueducts",
+            "x": 936,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Progressive Aqueducts 1",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/treadmill_0.png",
+            "chest_opened_img": "images/items/treadmill.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 186,
+            "y": 1282
+          },
+          {
+            "map": "aqueducts",
+            "x": 131,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "Progressive Aqueducts 2",
+        "access_rules": [
+          "$has_aqueducts_event|1"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/treadmill_0.png",
+            "chest_opened_img": "images/items/treadmill.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 746,
+            "y": 1240
+          },
+          {
+            "map": "aqueducts",
+            "x": 607,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "name": "Progressive Aqueducts 3",
+        "access_rules": [
+          "$has_aqueducts_event|2"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/treadmill_0.png",
+            "chest_opened_img": "images/items/treadmill.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 918,
+            "y": 1456
+          },
+          {
+            "map": "aqueducts",
+            "x": 753,
+            "y": 274
+          }
+        ]
+      }
+    ]
+  }
+]

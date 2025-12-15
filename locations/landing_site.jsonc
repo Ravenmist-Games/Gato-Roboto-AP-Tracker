@@ -1,0 +1,155 @@
+[  
+  {
+    "name": "Landing Site",
+    "children": [
+      {
+        "name": "Missile",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/missile_0.png",
+            "chest_opened_img": "images/items/missile.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1820,
+            "y": 506
+          },
+          {
+            "map": "landing_site",
+            "x": 253,
+            "y": 406
+          }
+        ]
+      },
+      {
+        "name": "West Healthkit",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1650,
+            "y": 246
+          },
+          {
+            "map": "landing_site",
+            "x": 98,
+            "y": 169
+          }
+        ]
+      },
+      {
+        "name": "East Healthkit",
+        "access_rules": [
+          "missile"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 2248,
+            "y": 420
+          },
+          {
+            "map": "landing_site",
+            "x": 638,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "name": "Bark Cartridge",
+        "access_rules": [
+          "missile"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1777,
+            "y": 334
+          },
+          {
+            "map": "landing_site",
+            "x": 215,
+            "y": 249
+          }
+        ]
+      },
+      {
+        "name": "Nicotine Cartridge",
+        "access_rules": [
+          "missile,[spin_jump]",
+          "missile,$rocket_jumps"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 2248,
+            "y": 334
+          },
+          {
+            "map": "landing_site",
+            "x": 638,
+            "y": 249
+          }
+        ]
+      },
+      {
+        "name": "Decoder",
+        "access_rules": [
+          "missile,spin_jump,$has_aqueducts_event|3,$has_heater_core_event|3,$has_ventilation_event|3",
+          "missile,spin_jump,[$rocket_jumps],[$precise_tricks]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/decoder_0.png",
+            "chest_opened_img": "images/items/decoder.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1820,
+            "y": 206
+          },
+          {
+            "map": "landing_site",
+            "x": 253,
+            "y": 129
+          }
+        ]
+      }
+    ]
+  }
+]
