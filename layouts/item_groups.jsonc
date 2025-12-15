@@ -1,0 +1,64 @@
+{
+  "items": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "4,4",
+    "rows": [
+      [
+        "missile",
+        "spin_jump",
+        "phase",
+        "coolant",
+        "decoder",
+        "bigshot",
+        "repeater",
+        "hopper"
+      ],
+      [
+        "aqueducts",
+        "heater_core",
+        "ventilation",
+        "victory"
+      ],
+      [
+        "cartridge",
+        "healthkit"
+      ]
+    ]
+  },
+  "randomization_options": {
+    "type": "group",
+    "header": "Randomization Options",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "margin": "1,2",
+        "rows": [
+          [
+            "rocket_jumps_option",
+            "precise_tricks_option",
+            "water_mech_option",
+            "small_mech_option"
+          ]
+        ]
+      }
+    ]
+  },
+  "pack_options": {
+    "type": "group",
+    "header": "Pack Options",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "margin": "1,2",
+        "rows": [
+          [
+            "auto_tab_setting"
+          ]
+        ]
+      }
+    ]
+  }
+}

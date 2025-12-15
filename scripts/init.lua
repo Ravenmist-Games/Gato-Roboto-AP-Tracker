@@ -16,11 +16,12 @@ Tracker:AddLocations("locations/incubator.jsonc")
 Tracker:AddLocations("locations/laboratory.jsonc")
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
-Tracker:AddLayouts("layouts/options.jsonc")
-Tracker:AddLayouts("layouts/pack_settings.jsonc")
-Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
+
+Tracker:AddLayouts("layouts/item_groups.jsonc")
+
+Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/tracker.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
