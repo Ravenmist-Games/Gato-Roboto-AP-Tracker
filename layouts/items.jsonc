@@ -1,43 +1,33 @@
 {
-  "shared_item_grid": {
+  "tracker_items": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
     "content": [
       {
         "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
+        "orientation": "vertical",
         "content": [
           {
-            "type": "itemgrid",
-            "item_margin": "10,10",
-            "h_alignment": "left",
-            "rows": [
-              [
-                "missile",
-                "spin_jump",
-                "phase",
-                "coolant",
-                "decoder",
-                "bigshot",
-                "repeater",
-                "hopper"
-              ],
-              [
-                "aqueducts",
-                "heater_core",
-                "ventilation",
-                "victory"
-              ],
-              [
-                "cartridge",
-                "healthkit"
-              ]
-            ]
+            "type": "layout",
+            "key": "items"
           }
         ]
       }
+    ]
+  },
+  "settings_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+				"type": "layout",
+				"key": "randomization_options"
+			},
+      {
+				"type": "layout",
+				"key": "pack_options"
+			}
     ]
   }
 }

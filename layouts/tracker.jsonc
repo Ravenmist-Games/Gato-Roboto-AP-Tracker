@@ -1,5 +1,5 @@
 {
-  "tracker_horizontal": {
+  "tracker_default": {
     "type": "container",
     "background": "#000000",
     "content": {
@@ -9,6 +9,7 @@
         {
           "type": "dock",
           "dock": "bottom",
+          "v_alignment": "stretch",
           "content": [
             {
               "type": "group",
@@ -16,36 +17,26 @@
               "dock": "left",
               "content": {
                 "type": "layout",
-                "key": "shared_item_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Options",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "options_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Pack Settings",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "pack_settings_grid"
+                "key": "tracker_items"
+              },
+              "header_content": {
+                "type": "button_popup",
+                "style": "settings",
+                "popup_background": "#000000",
+                "layout": "settings_popup"
               }
             }
           ]
         },
         {
           "type": "tabbed",
+          "background": "#000000",
           "tabs": [
             {
               "title": "World Map",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "world_map"
                 ]
@@ -55,6 +46,7 @@
               "title": "Landing Site",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "landing_site"
                 ]
@@ -64,6 +56,7 @@
               "title": "Nexus",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "nexus"
                 ]
@@ -73,6 +66,7 @@
               "title": "Aqueducts",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "aqueducts"
                 ]
@@ -82,6 +76,7 @@
               "title": "Heater Core",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "heater_core"
                 ]
@@ -91,6 +86,7 @@
               "title": "Ventilation",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "ventilation"
                 ]
@@ -100,6 +96,7 @@
               "title": "Incubator",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "incubator"
                 ]
@@ -109,6 +106,7 @@
               "title": "Laboratory",
               "content": {
                 "type": "map",
+                "v_alignment": "center",
                 "maps": [
                   "laboratory"
                 ]
@@ -118,5 +116,14 @@
         }
       ]
     }
+  },
+  "tracker_broadcast": {
+    "type": "container",
+    "content": [
+      {
+        "type": "layout",
+        "key": "tracker_items"
+      }
+    ]
   }
 }
