@@ -76,21 +76,27 @@
   {
     "name": "Progressive Aqueducts",
     "type": "progressive",
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "codes":"aqueducts",
     "stages": [
       {
-        "img": "images/items/Treadmill.png",
+        "img": "images/checks/Treadmill_0.png",
+        "codes": "",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Treadmill_1.png",
         "codes": "aqueducts_1",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Treadmill.png",
+        "img": "images/items/Treadmill_2.png",
         "codes": "aqueducts_2",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Treadmill.png",
+        "img": "images/items/Treadmill_3.png",
         "codes": "aqueducts_3",
         "inherit_codes": true
       }
@@ -99,21 +105,27 @@
   {
     "name": "Progressive Heater Core",
     "type": "progressive",
+    "allow_disabled": "false",
     "initial_stage_idx": 0,
     "codes": "heater_core",
     "stages": [
       {
-        "img": "images/items/Hotboy_1.png",
+        "img": "images/checks/Heater_Core_0.png",
+        "codes": "",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Heater_Core_1.png",
         "codes": "heater_1",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Hotboy_2.png",
+        "img": "images/items/Heater_Core_2.png",
         "codes": "heater_2",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Hot_Tubes.png",
+        "img": "images/items/Heater_Core_3.png",
         "codes": "heater_3",
         "inherit_codes": true
       }
@@ -122,21 +134,27 @@
   {
     "name": "Progressive Ventilation",
     "type": "progressive",
+    "allow_disabled": "false",
     "initial_stage_idx": 0,
     "codes": "ventilation",
     "stages": [
       {
-        "img": "images/items/Button.png",
+        "img": "images/checks/Button_0.png",
+        "codes": "",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Button_1.png",
         "codes": "ventilation_1",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Button.png",
+        "img": "images/items/Button_2.png",
         "codes": "ventilation_2",
         "inherit_codes": true
       },
       {
-        "img": "images/items/Button.png",
+        "img": "images/items/Button_3.png",
         "codes": "ventilation_3",
         "inherit_codes": true
       }
