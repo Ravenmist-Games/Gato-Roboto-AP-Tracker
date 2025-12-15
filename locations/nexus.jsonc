@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Nexus",
+    "access_rules": [
+      "missile"
+    ],
+    "children": [
+      {
+        "name": "West Healthkit",
+        "access_rules": [
+          "spin_jump,phase",
+          "spin_jump,coolant",
+          "[$rocket_jumps],[$precise_tricks],coolant",
+          "[$rocket_jumps],spin_jump"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1699,
+            "y": 862
+          },
+          {
+            "map": "nexus",
+            "x": 104,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "name": "East Healthkit",
+        "access_rules": [
+          "[spin_jump]",
+          "$rocket_jumps"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 2248,
+            "y": 862
+          },
+          {
+            "map": "nexus",
+            "x": 637,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "name": "Coffee Stain Cartridge",
+        "access_rules": [
+          "$has_aqueducts_event|2",
+          "[$water_mech]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1655,
+            "y": 862
+          },
+          {
+            "map": "nexus",
+            "x": 62,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "name": "Urine Cartridge",
+        "access_rules": [
+          "spin_jump",
+          "[$precise_tricks]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1868,
+            "y": 820
+          },
+          {
+            "map": "nexus",
+            "x": 267,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Swamp Matcha Cartridge",
+        "access_rules": [
+          "$has_ventilation_event|3",
+          "[$precise_tricks]"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 2166,
+            "y": 820
+          },
+          {
+            "map": "nexus",
+            "x": 555,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Rebba",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Repeater",
+            "chest_unopened_img": "images/checks/repeater_0.png",
+            "chest_opened_img": "images/items/repeater.png",
+            "item_count": 1,
+            "access_rules": [
+              "cartridge:7"
+            ]
+          },
+          {
+            "name": "Hopper",
+            "chest_unopened_img": "images/checks/hopper_0.png",
+            "chest_opened_img": "images/items/hopper.png",
+            "item_count": 1,
+            "access_rules": [
+              "cartridge:14"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1996,
+            "y": 950
+          },
+          {
+            "map": "nexus",
+            "x": 391,
+            "y": 406
+          }
+        ]
+      }
+    ]
+  }
+]

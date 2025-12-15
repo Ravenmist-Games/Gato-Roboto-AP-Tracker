@@ -43,6 +43,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "World Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "world_map"
+                ]
+              }
+            },
+            {
               "title": "Landing Site",
               "content": {
                 "type": "map",

@@ -1,0 +1,58 @@
+[  
+  {
+    "name": "Incubator",
+    "access_rules": [
+      "$has_aqueducts_event|3,$has_heater_core_event|3,$has_ventilation_event|3,decoder"
+    ],
+    "children": [
+      {
+        "name": "Healthkit",
+        "access_rules": [
+          "spin_jump,phase,hopper"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1964,
+            "y": 1272
+          },
+          {
+            "map": "incubator",
+            "x": 683,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Tamagato Cartridge",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1578,
+            "y": 1272
+          },
+          {
+            "map": "incubator",
+            "x": 338,
+            "y": 174
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,11 @@
 [
   {
+    "name": "world_map",
+    "location_size": 32,
+    "location_border_thickness": 4,
+    "img": "images/maps/World_Map.png"
+  },
+  {
     "name": "landing_site",
     "location_size": 28,
     "location_border_thickness": 4,

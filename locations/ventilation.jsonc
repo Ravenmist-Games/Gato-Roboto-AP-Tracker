@@ -1,0 +1,184 @@
+[  
+  {
+    "name": "Ventilation",
+    "access_rules": [
+      "$has_heater_core_event|2,spin_jump",
+      "$has_heater_core_event|2,$rocket_jumps"
+    ],
+    "children": [
+      {
+        "name": "Healthkit",
+        "access_rules": [
+          "$has_ventilation_event|1"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/healthkit_0.png",
+            "chest_opened_img": "images/items/healthkit.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3506,
+            "y": 1357
+          },
+          {
+            "map": "ventilation",
+            "x": 273,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Gris Cartridge",
+        "access_rules": [
+          "$has_ventilation_event|3"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3807,
+            "y": 1272
+          },
+          {
+            "map": "ventilation",
+            "x": 582,
+            "y": 176
+          }
+        ]
+      },
+      {
+        "name": "Grape Cartridge",
+        "access_rules": [
+          "$has_ventilation_event|3"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/cartridge_0.png",
+            "chest_opened_img": "images/items/cartridge.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3378,
+            "y": 1445
+          },
+          {
+            "map": "ventilation",
+            "x": 158,
+            "y": 334
+          }
+        ]
+      },
+      {
+        "name": "Bigshot",
+        "access_rules": [
+          "$has_ventilation_event|1"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/bigshot_0.png",
+            "chest_opened_img": "images/items/bigshot.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3894,
+            "y": 1486
+          },
+          {
+            "map": "ventilation",
+            "x": 621,
+            "y": 374
+          }
+        ]
+      },
+      {
+        "name": "Progressive Ventilation 1",
+        "access_rules": [],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/button_0.png",
+            "chest_opened_img": "images/items/button.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3637,
+            "y": 1229
+          },
+          {
+            "map": "ventilation",
+            "x": 389,
+            "y": 137
+          }
+        ]
+      },
+      {
+        "name": "Progressive Ventilation 2",
+        "access_rules": [
+          "$has_ventilation_event|1"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/button_0.png",
+            "chest_opened_img": "images/items/button.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3637,
+            "y": 1659
+          },
+          {
+            "map": "ventilation",
+            "x": 389,
+            "y": 532
+          }
+        ]
+      },
+      {
+        "name": "Progressive Ventilation 3",
+        "access_rules": [
+          "$has_ventilation_event|2"
+        ],
+        "sections": [
+          {
+            "chest_unopened_img": "images/checks/button_0.png",
+            "chest_opened_img": "images/items/button.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 3378,
+            "y": 1614
+          },
+          {
+            "map": "ventilation",
+            "x": 158,
+            "y": 492
+          }
+        ]
+      }
+    ]
+  }
+]
