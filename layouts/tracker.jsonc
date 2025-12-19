@@ -8,7 +8,7 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
           "v_alignment": "stretch",
           "content": [
             {

@@ -101,8 +101,8 @@
       {
         "name": "Nicotine Cartridge",
         "access_rules": [
-          "missile,[spin_jump]",
-          "missile,$rocket_jumps"
+          "missile,spin_jump",
+          "missile,[$rocket_jumps]"
         ],
         "sections": [
           {
