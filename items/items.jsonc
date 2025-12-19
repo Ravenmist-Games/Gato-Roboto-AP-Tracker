@@ -67,7 +67,7 @@
     "name": "Healthkits",
     "type": "consumable",
 		"img": "images/items/Healthkit.png",
-		"max_quantity": 14,
+		"max_quantity": 10,
 		"initial_quantity": 0,
 		"overlay_background": "#000000",
 		"overlay_font_size": 10,
