@@ -135,7 +135,7 @@
         "name": "Coolant",
         "access_rules": [
           "$has_heater_core_event|3",
-          "$small_mech"
+          "$has_heater_core_event|1,[$rocket_jumps],[$small_mech]"
         ],
         "sections": [
           {
@@ -233,7 +233,8 @@
       {
         "name": "Progressive Heater Core 3",
         "access_rules": [
-          "$has_heater_core_event|2"
+          "$has_heater_core_event|2,phase",
+          "@Heater Core/Coolant"
         ],
         "sections": [
           {

@@ -4,26 +4,11 @@
     "h_alignment": "left",
     "item_margin": "4,4",
     "rows": [
-      [
-        "missile",
-        "spin_jump",
-        "phase",
-        "coolant",
-        "decoder",
-        "bigshot",
-        "repeater",
-        "hopper"
-      ],
-      [
-        "aqueducts",
-        "heater_core",
-        "ventilation",
-        "victory"
-      ],
-      [
-        "cartridge",
-        "healthkit"
-      ]
+      ["missile","spin_jump","phase"],
+      ["coolant","bigshot","decoder"],
+      ["repeater","hopper"],
+      ["cartridge","healthkit"],
+      ["aqueducts","heater_core","ventilation"]
     ]
   },
   "randomization_options": {

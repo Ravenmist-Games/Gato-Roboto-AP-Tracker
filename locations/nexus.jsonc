@@ -9,7 +9,6 @@
         "name": "West Healthkit",
         "access_rules": [
           "spin_jump,phase",
-          "spin_jump,coolant",
           "[$rocket_jumps],[$precise_tricks],coolant",
           "[$rocket_jumps],spin_jump"
         ],
@@ -89,6 +88,7 @@
         "name": "Urine Cartridge",
         "access_rules": [
           "spin_jump",
+          "$rocket_jumps,coolant",
           "[$precise_tricks]"
         ],
         "sections": [
