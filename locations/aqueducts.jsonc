@@ -34,9 +34,9 @@
       {
         "name": "East Healthkit",
         "access_rules": [
-          "$has_aqueducts_event|3,spin_jump",
+          "$has_aqueducts_event|2,spin_jump",
           "$has_aqueducts_event|2,$rocket_jumps",
-          "[$water_mech],[$rocket_jumps],[$precise_tricks]"
+          "[$water_mech],[$rocket_jumps]"
         ],
         "sections": [
           {
@@ -112,7 +112,8 @@
         "name": "Starboard Cartridge",
         "access_rules": [
           "$has_aqueducts_event|2,spin_jump",
-          "$has_aqueducts_event|2,[$rocket_jumps]"
+          "$has_aqueducts_event|2,$rocket_jumps",
+          "[$water_mech],[$rocket_jumps]"
         ],
         "sections": [
           {
@@ -137,7 +138,9 @@
       {
         "name": "Spin Jump",
         "access_rules": [
-          "$has_aqueducts_event|3"
+          "$has_aqueducts_event|3",
+          "[$water_mech],[$rocket_jumps],spin_jump",
+          "[$water_mech],[$rocket_jumps],coolant"
         ],
         "sections": [
           {
@@ -161,7 +164,11 @@
       },
       {
         "name": "Progressive Aqueducts 1",
-        "access_rules": [],
+        "access_rules": [
+          "$has_aqueducts_event|0",
+          "$has_aqueducts_event|1,spin_jump",
+          "$has_aqueducts_event|1,[rocket_jumps]"
+        ],
         "sections": [
           {
             "chest_unopened_img": "images/checks/treadmill_0.png",
@@ -185,7 +192,8 @@
       {
         "name": "Progressive Aqueducts 2",
         "access_rules": [
-          "$has_aqueducts_event|1"
+          "$has_aqueducts_event|1",
+          "[$water_mech],[$rocket_jumps]"
         ],
         "sections": [
           {
@@ -210,7 +218,8 @@
       {
         "name": "Progressive Aqueducts 3",
         "access_rules": [
-          "$has_aqueducts_event|2"
+          "$has_aqueducts_event|2",
+          "$has_aqueducts_event|2,[$rocket_jumps]"
         ],
         "sections": [
           {
