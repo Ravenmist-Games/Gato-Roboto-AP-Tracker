@@ -15,8 +15,8 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 01413] = { { "@Nexus/Urine Cartridge/" } },
 	[BASE_LOCATION_ID + 02113] = { { "@Nexus/Swamp Matcha Cartridge/" } },
 	-- Rebba Cartridge Shop
-	[BASE_LOCATION_ID + 01716] = { { "@Nexus/Rebba/Repeater/" } },
-	[BASE_LOCATION_ID + 11716] = { { "@Nexus/Rebba/Hopper/" } },
+	[11716] = { { "@Nexus/Rebba/Repeater" } },
+	[21716] = { { "@Nexus/Rebba/Hopper" } },
 
 	-- Aqueducts
 	[BASE_LOCATION_ID + 00406] = { { "@Aqueducts/West Healthkit/" } },

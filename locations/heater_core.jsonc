@@ -134,8 +134,10 @@
       {
         "name": "Coolant",
         "access_rules": [
-          "$has_heater_core_event|3",
-          "$has_heater_core_event|1,[$rocket_jumps],[$small_mech]"
+          "$has_heater_core_event|2,phase",
+          "$has_heater_core_event|1,phase,[$rocket_jumps],[$small_mech]",
+          "$has_heater_core_event|2,[$rocket_jumps],[$small_mech]",
+          "phase"
         ],
         "sections": [
           {
@@ -160,7 +162,8 @@
       {
         "name": "Phase",
         "access_rules": [
-          "$has_heater_core_event|2"
+          "$has_heater_core_event|2",
+          "phase"
         ],
         "sections": [
           {
@@ -208,7 +211,8 @@
       {
         "name": "Progressive Heater Core 2",
         "access_rules": [
-          "$has_heater_core_event|1"
+          "$has_heater_core_event|1",
+          "phase"
         ],
         "sections": [
           {
