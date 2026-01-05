@@ -61,7 +61,7 @@
       {
         "name": "Port Cartridge",
         "access_rules": [
-          "$has_aqueducts_event|3,spin_jump"
+          "$has_aqueducts_event|2,spin_jump"
         ],
         "sections": [
           {
