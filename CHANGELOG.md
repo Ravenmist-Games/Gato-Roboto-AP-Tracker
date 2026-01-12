@@ -1,5 +1,10 @@
 # Gato Roboto AP Tracker Changelog
 
+## v1.0.2
+
+### Bug Fixes
+- Fixed Ventilation Region Access bypassing Missile Module requirement
+
 ## v1.0.1
 
 ### Bug Fixes
