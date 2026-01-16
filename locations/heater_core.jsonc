@@ -2,8 +2,8 @@
   {
     "name": "Heater Core",
     "access_rules": [
-      "@Nexus,spin_jump",
-      "@Nexus,$rocket_jumps"
+      "missile,spin_jump",
+      "missile,$rocket_jumps"
     ],
     "children": [
       {

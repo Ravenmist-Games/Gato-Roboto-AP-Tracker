@@ -2,8 +2,8 @@
   {
     "name": "Ventilation",
     "access_rules": [
-      "$has_heater_core_event|2,spin_jump",
-      "$has_heater_core_event|2,$rocket_jumps"
+      "$has_heater_core_event|2,missile,spin_jump",
+      "$has_heater_core_event|2,missile,$rocket_jumps"
     ],
     "children": [
       {
